@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0f172a;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1e293b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Two-Tier Application Deployment</h1>
+        <p>AWS | DevOps | Cloud Infrastructure</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Architecture</a>
+        <a href="#">Technologies</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Project Overview</h2>
+            <p>
+                This project demonstrates a two-tier application deployed on AWS
+                using best DevOps practices, including public and private subnets,
+                load balancer, and secure networking.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>AWS (EC2, VPC, ALB, NAT Gateway)</li>
+                <li>Linux & Nginx</li>
+                <li>Git & GitHub</li>
+                <li>Docker / Kubernetes (Optional)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Architecture</h2>
+            <p>
+                Users access the application via an Application Load Balancer.
+                Traffic flows to EC2 instances in private subnets while outbound
+                internet access is handled through a NAT Gateway.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 DevOps Project | Designed by You</p>
+    </footer>
+
+</body>
+</html>
+
