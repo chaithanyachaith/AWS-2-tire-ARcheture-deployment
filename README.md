@@ -14,7 +14,7 @@ Two Tiers
 
 1. **Web / Application Tier**
 
-   * EC2 instances (or containers)
+   * EC2 instances
    * Hosted in **private subnets**
    * Accessible through an **Application Load Balancer (ALB)**
 
